@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main_content {
+    width: 98%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.main_content h1 {
+    font-size: 2rem;
+    color: #333;
+    font-weight: 600;
+}
+
+.form_group_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.group_fields {
+    width: calc(50% - 10px);
+    margin: 10px 0;
+}
+
+.group_fields input {
+    width: 100%;
+    height: 36px;
+    border: 1px solid #CCC;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+.group_fields button {
+    height: 36px;
+    border: none;
+    background-color: #3443BB;
+    color: #FFF;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+hr {
+    margin: 20px 0;
+}
